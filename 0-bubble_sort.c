@@ -13,6 +13,7 @@ void bubble_sort(int *array, size_t size)
 	size_t j;
 	int temp;
 	int swap;
+
 	if (size < 2)
 	{
 		return;
@@ -39,6 +40,4 @@ void bubble_sort(int *array, size_t size)
 			break;
 		}
 	}
-
-	
 }
