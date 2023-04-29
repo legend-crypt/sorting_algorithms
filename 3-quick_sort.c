@@ -51,7 +51,7 @@ int partition(int *array, size_t low, size_t high)
 
 void recursive_quick_sort(int *array, size_t low, size_t high)
 {
-	size|_t pivot_index;
+	size_t pivot_index;
 	if (low < high)
 	{	
 		pivot_index = partition(array, low, high);
